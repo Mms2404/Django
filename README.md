@@ -47,7 +47,7 @@ Hi there , here lies the backend for the Plant Shop and Expense Tracker of my AP
     ```bash
       python manage.py createsuperuser
  - Follow the prompts for username, email, and password.
- - Now run the server and go to http://127.0.0.1:8000/admin and look at the admin panel you create in just two lines of 
+ - Now run the server and go to http://127.0.0.1:8000/admin and look at the admin panel you created in just two lines of 
    code .
 
 ### Add static assets to ur app :
