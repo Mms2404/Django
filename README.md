@@ -22,7 +22,8 @@ Hi there , here lies the backend for the Plant Shop and Expense Tracker of my AP
 ### 3.Create Ur App :
  - ```bash
     - python manage.py startapp <app name>  # e.g., Expense_Tracker_app
-    - python manage.py runserver    - runs the server 
+    - python manage.py runserver    - runs the server
+    - ( or try this if you get client exception in frontend , also check ur ip adresses ) python manage.py runserver 0.0.0.0.8000
  - In <appname>/app.py, define your app name and class.
  - In <projectName>/settings.py, add your app to the INSTALLED_APPS list.
  - In the project-level urls.py, add the path to your app’s URL file (create this url.py file).
@@ -56,6 +57,10 @@ Hi there , here lies the backend for the Plant Shop and Expense Tracker of my AP
     STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),  # Don't forget that comma!
     )
+
+
+<img width="1122" height="1030" alt="Screenshot 2025-07-15 094730" src="https://github.com/user-attachments/assets/704900a3-8d63-4fab-98df-55038b07c875" />
+
 
 #### I didnt dive deep into Django forms ,Flutter + Firebase is enough for my needs!
  
