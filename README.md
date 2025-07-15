@@ -25,7 +25,7 @@ Hi there , here lies the backend for the Plant Shop and Expense Tracker of my AP
     - python manage.py runserver    - runs the server
     - ( or try this if you get client exception in frontend , also check ur ip adresses ) python manage.py runserver 0.0.0.0.8000
  - In <appname>/app.py, define your app name and class.
- - In <projectName>/settings.py, add your app to the INSTALLED_APPS list.
+ - In <projectName>/settings.py, add your app to the INSTALLED_APPS list and add your ip address in the ALLOWED_HOSTS so that the frontend can access .
  - In the project-level urls.py, add the path to your app’s URL file (create this url.py file).
  - Look at the views.py
 
