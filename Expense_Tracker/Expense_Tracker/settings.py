@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-mz7e=3y_j5$q&y*u-2)78wx18slp&4sgi&!(iyj!wqlt#-w97g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.84.18', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['10.36.193.18', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -67,6 +67,10 @@ MIDDLEWARE = [
 
 # allowing all origins , just for development
 CORS_ALLOWED_ALL_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_METHODS = ['DELETE', 'GET', 'OPTIONS', 'PATCH', 'POST', 'PUT']
+CORS_ALLOW_HEADERS = ['*']
+
    
 
 ROOT_URLCONF = 'Expense_Tracker.urls'
