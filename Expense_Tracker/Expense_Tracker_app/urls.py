@@ -9,3 +9,9 @@ urlpatterns = [
 
 
 # super user created ( madhu  , madhu@gmail.com , 123)
+# {
+#     "username": "Test",
+#     "email": "test@example.com",
+#     "password": "TestPass123!",
+#     "password_confirm": "TestPass123!"
+# }

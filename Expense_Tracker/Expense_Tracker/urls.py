@@ -21,6 +21,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from django.conf import settings
 from django.conf.urls.static import static
+from Expense_Tracker_app.views import RegisterView
 
 @api_view(['GET'])
 def api_root(request):
@@ -32,6 +33,7 @@ urlpatterns = [
 
     path('api/expenses/' , include('Expense_Tracker_app.urls')),  # Route to the app
     path('api-token-auth/' , obtain_auth_token , name = 'api_token_auth'),   # Token auth login
+    path('api/register/', RegisterView.as_view(), name='register'),
     
     path('api/', include('myShop.urls')),
 ]
